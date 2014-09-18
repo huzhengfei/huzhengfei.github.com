@@ -1,2 +1,0 @@
-
-$("#mynavbar").scrollspy();
