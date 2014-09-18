@@ -1,0 +1,161 @@
+<!doctype html>
+<html>
+    <head>
+        <title>胡·吉诃德</title>
+        <meta property="qc:admins" content="555327775766516166375" />
+        <meta name="ujianVerification" content="2f40a7db9519ec847ea9a1c8c21a1de8" />
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        <meta name="description" content="专注游戏引擎和web开发" />
+        <meta name="keywords" content="unity3d,cocos2d,html5,android,胡吉诃德"/>
+        <link rel="stylesheet" href="css/style.css" type="text/css" media="screen"/>
+        <link rel="icon" href="images/index/bg_fav.png">
+        <!--<script type="text/javascript" src="js/baidu/fangwen.js"></script>-->
+        <!--<script type="text/javascript" src="http://qzonestyle.gtimg.cn/qzone/openapi/qc_loader.js" data-appid="101077381" data-redirecturi="http://www.veyvin.com" charset="utf-8"></script>-->
+
+        <style>
+            *{
+                margin:0;
+                padding:0;
+            }
+            body{
+                font-family:Arial;
+                background:#fff url(images/index/bg.png) no-repeat top left;
+            }
+            .title{
+                width:548px;
+                height:220px;
+                position:absolute;
+                top:425px;
+                left:182px;
+                background:transparent url(images/index/title.jpg) no-repeat top left;
+            }
+            /*a.back{*/
+                /*background:transparent url(back.png) no-repeat top left;*/
+                /*position:fixed;*/
+                /*width:150px;*/
+                /*height:27px;*/
+                /*outline:none;*/
+                /*bottom:0px;*/
+                /*left:0px;*/
+            /*}*/
+            #content{
+                margin:0 auto;
+            }
+
+
+        </style>
+    </head>
+
+    <body>
+    <div style="float: left">
+        <span id="qqLoginBtn"></span>
+        <script type="text/javascript">
+            QC.Login({
+                btnId:"qqLoginBtn"    //插入按钮的节点id
+            });
+        </script>
+    </div>
+    <!--
+    -->
+
+
+        <div id="content">
+            <a class="back" href="js/jquery-1.7.1.min.js"></a>
+            <div class="title"></div>
+
+            <div class="navigation" id="nav">
+                <div class="item unity">
+                    <img src="images/index/bg_user.png" alt="" width="199" height="199" class="circle"/>
+                    <a href="projects/u3d/unity3d.html" class="icon"></a>
+                    <h2>Unity3D</h2>
+                    <ul>
+                        <li><a href="projects/u3d">博客</a></li>
+                        <li><a href="#">插件</a></li>
+                        <li><a href="#">C#</a></li>
+                    </ul>
+                </div>
+                <div class="item cocos">
+                    <img src="images/index/bg_home.png" alt="" width="199" height="199" class="circle"/>
+                    <a href="projects/cocos/cocos2dx.html" class="icon"></a>
+                    <h2>Cocos2D</h2>
+                    <ul>
+                        <li><a href="projects/cocos">博客</a></li>
+                        <li><a href="#">C++</a></li>
+                        <li><a href="#">Lua</a>
+                        <li><a href="#">Python</a></li>
+                    </ul>
+                </div>
+                <div class="item android">
+                    <img src="images/index/bg_camera.png" alt="" width="199" height="199" class="circle"/>
+                    <a href="projects/android/android.html" class="icon"></a>
+                    <h2>Android</h2>
+                    <ul>
+                        <li><a href="projects/android">博客</a></li>
+                        <li><a href="#">java</a></li>
+                    </ul>
+                </div>
+                <div class="item web">
+                    <img src="images/index/bg_shop.png" alt="" width="199" height="199" class="circle"/>
+                    <a href="projects/web/html5.html" class="icon"></a>
+                    <h2>Web</h2>
+                    <ul>
+                        <li><a href="#">博客</a></li>
+                        <li><a href="#">前端</a></li>
+                        <li><a href="#">html5</a></li>
+                    </ul>
+                </div>
+                <div class="item fav">
+                    <img src="images/index/bg_fav.png" alt="" width="199" height="199" class="circle"/>
+                    <a href="projects/love/photo.html" class="icon"></a>
+                    <h2>Love</h2>
+                    <ul>
+                        <li><a href="#">LOVE</a></li>
+                        <li><a href="#">Support</a></li>
+                        <li><a href="#">Comments</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- The JavaScript -->
+        <script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>
+        <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+        <script type="text/javascript">
+            $(function() {
+                $('#nav > div').hover(
+                function () {
+                    var $this = $(this);
+                    $this.find('img').stop().animate({
+                        'width'     :'199px',
+                        'height'    :'199px',
+                        'top'       :'-25px',
+                        'left'      :'-25px',
+                        'opacity'   :'1.0'
+                    },500,'easeOutBack',function(){
+                        $(this).parent().find('ul').fadeIn(700);
+                    });
+
+                    $this.find('a:first,h2').addClass('active');
+                },
+                function () {
+                    var $this = $(this);
+                    $this.find('ul').fadeOut(500);
+                    $this.find('img').stop().animate({
+                        'width'     :'52px',
+                        'height'    :'52px',
+                        'top'       :'0px',
+                        'left'      :'0px',
+                        'opacity'   :'0.1'
+                    },5000,'easeOutBack');
+
+                    $this.find('a:first,h2').removeClass('active');
+                }
+            );
+            });
+        </script>
+    <!-- UJian Button BEGIN -->
+    <script type="text/javascript" src="http://v1.ujian.cc/code/ujian.js?type=slide&num=10&btn=3&fade=1&uid=1923350"></script>
+    <a href="http://www.ujian.cc" style="border:0;"><img src="http://img.ujian.cc/pixel.png" alt="友荐云推荐" style="border:0;padding:0;margin:0;" /></a>
+    <!-- UJian Button END -->
+
+    </body>
+</html>
