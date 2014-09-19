@@ -1,4 +1,5 @@
-﻿Ver:1|FileCount:7
+﻿Ver:2|FileCount:8
+EasyDown.zip|H0KuXPvNO4Dud5ZVpn348n9P9aw=@35535
 readme.txt|auo7tTxsc8w/bF2EfhBLO+eb6fo=@32
 prefabs/layout/scene.depend.txt|/021aldwLaGczgibcDXWE+2HLTs=@56
 prefabs/layout/scene.layout.txt|TsLKz1HAIh6gqxsa+p2uOpdgm18=@6778
