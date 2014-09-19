@@ -1,3 +1,3 @@
-﻿Ver:2
-test1|322q+clppXB7/nXB3HljcrC1MK0=|8
-test1_ios|cKXZRbXsvgMa7naIXazNvWxR+Ls=|6
+﻿Ver:3
+test1|x5eKT5Mcy4hKwZzcDzkFwPIxXrs=|7
+test1_ios|1S56pgyq0lKL78TnaNzcq9B+dQ4=|6
