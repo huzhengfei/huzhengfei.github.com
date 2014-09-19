@@ -1,3 +1,3 @@
-﻿Ver:4
-test1|/QmLyGXv2q32pvwKkIAB0yoHync=|7
-test1_ios|0icVq6z78UEIGHLzq/UcG8X+cU8=|6
+﻿Ver:1
+test1|r5H2RmL5l3DdirS3iuVfO8n8MNY=|7
+test1_ios|g5PpHS4v5c4HgjLL1CAUP8NdmUs=|6

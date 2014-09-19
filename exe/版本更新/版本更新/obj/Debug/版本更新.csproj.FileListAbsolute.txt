@@ -1,0 +1,13 @@
+d:\documents\visual studio 2013\Projects\版本更新\版本更新\bin\Debug\版本更新.exe.config
+d:\documents\visual studio 2013\Projects\版本更新\版本更新\bin\Debug\版本更新.exe
+d:\documents\visual studio 2013\Projects\版本更新\版本更新\bin\Debug\版本更新.pdb
+d:\documents\visual studio 2013\Projects\版本更新\版本更新\obj\Debug\版本更新.csprojResolveAssemblyReference.cache
+d:\documents\visual studio 2013\Projects\版本更新\版本更新\obj\Debug\MainWindow.baml
+d:\documents\visual studio 2013\Projects\版本更新\版本更新\obj\Debug\MainWindow.g.cs
+d:\documents\visual studio 2013\Projects\版本更新\版本更新\obj\Debug\App.g.cs
+d:\documents\visual studio 2013\Projects\版本更新\版本更新\obj\Debug\版本更新_MarkupCompile.cache
+d:\documents\visual studio 2013\Projects\版本更新\版本更新\obj\Debug\版本更新.g.resources
+d:\documents\visual studio 2013\Projects\版本更新\版本更新\obj\Debug\版本更新.Properties.Resources.resources
+d:\documents\visual studio 2013\Projects\版本更新\版本更新\obj\Debug\版本更新.csproj.GenerateResource.Cache
+d:\documents\visual studio 2013\Projects\版本更新\版本更新\obj\Debug\版本更新.exe
+d:\documents\visual studio 2013\Projects\版本更新\版本更新\obj\Debug\版本更新.pdb
