@@ -130,7 +130,7 @@ $(document).ready(function(){
             };
         })();
 
-        if($('.entry h2').length > 2 && !isMobile.any() && ){
+        if($('.entry h2').length > 2 && !isMobile.any() ){
 
             genIndex();
 
