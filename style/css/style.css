@@ -38,19 +38,19 @@ a.icon{
     cursor:pointer;
 }
 .unity a.icon{
-    background:transparent url(../images/index/home.png) no-repeat 0px 0px;
+    background:transparent url(/images/index/home.png) no-repeat 0px 0px;
 }
 .cocos a.icon{
-    background:transparent url(../images/index/home.png) no-repeat 0px 0px;
+    background:transparent url(/images/index/home.png) no-repeat 0px 0px;
 }
 .android a.icon{
-    background:transparent url(../images/index/home.png) no-repeat 0px 0px;
+    background:transparent url(/images/index/home.png) no-repeat 0px 0px;
 }
 .web a.icon{
-    background:transparent url(../images/index/home.png) no-repeat 0px 0px;
+    background:transparent url(/images/index/home.png) no-repeat 0px 0px;
 }
 .fav a.icon{
-    background:transparent url(../images/index/fav.png) no-repeat 0px 0px;
+    background:transparent url(/images/index/fav.png) no-repeat 0px 0px;
 }
 .navigation .item a.active{
     background-position:0px -52px;
