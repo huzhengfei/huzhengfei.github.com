@@ -5,14 +5,10 @@ rdiscount:
   extensions: [  "autolink", ]
 pygments: true
 paginate: 5
-permalink: /:title
+paginate_path: "projects/u3d/page:num"
 
 markdown_ext:  markdown,mkd,mkdn,md
 highlighter: pygments
-
-permalink: /:categories/:title.html
-
-paginate_path: "page:num"
 exclude: [ "README.md",".idea",".iml",".name",".Node"]
 encoding: "utf-8"
 
