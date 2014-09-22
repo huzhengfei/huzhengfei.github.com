@@ -12,7 +12,7 @@ highlighter: pygments
 
 permalink: /:categories/:title.html
 
-paginate_path: "projects/u3d/:num"
+paginate_path: "projects/u3d/page:num"
 exclude: [ "README.md",".idea",".iml",".name",".Node"]
 encoding: "utf-8"
 
