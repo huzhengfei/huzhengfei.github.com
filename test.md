@@ -3,10 +3,10 @@ layout: home
 ---
 <div>
 <ul>
-{% for docs in site.data.docs %}
+{% for doc in site.data.docs %}
   <li>
-    <a href="https://github.com/{{ docs.title }}">
-      {{ docs.docs }}
+    <a href="https://github.com/{{ doc.title }}">
+      {{ doc.docs }}
     </a>
   </li>
 {% end %}
