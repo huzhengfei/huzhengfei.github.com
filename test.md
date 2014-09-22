@@ -1,3 +1,7 @@
+---
+layout: home
+---
+<div>
 <ul>
 {% for member in site.data.docs %}
   <li>
@@ -7,3 +11,4 @@
   </li>
 {% end %}
 </ul>
+<div>
